@@ -166,7 +166,6 @@ class BluRay
     # set profit margin
     profit = (@selling_price - @cost_price)
     return profit.round(2)
-    
   end
 
   # List blurays by genre
