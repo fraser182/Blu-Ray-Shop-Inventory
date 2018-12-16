@@ -1,0 +1,34 @@
+<h1>All Suppliers</h1>
+
+<div class="suppliers_container">
+
+  <% for supplier in @suppliers %>
+  <div class="supplier_cell">
+
+
+    <p>Name: <%= supplier.name %></p>
+
+    <p>Email: <%= supplier.email %></p>
+
+    <p>Telephone: <%= supplier.telephone %></p>
+
+    <p>Website: <%= supplier.website %></p>
+
+    <hr />
+
+
+    <div class="align_button_and_link">
+      <div id ="wrapper">
+        <a class="button" href="/suppliers/<%= supplier.id %>/edit">Edit Supplier</a>
+
+
+        <form action="/suppliers/<%= supplier.id %>/delete" method="post">
+          <input class="btn_submit" type="submit" value="Delete Supplier">
+        </form>
+      </div>
+    </div>
+
+  </div>
+  <% end %>
+
+</div>

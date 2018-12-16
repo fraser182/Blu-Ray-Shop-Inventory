@@ -1,0 +1,32 @@
+
+<div class="blurays_container">
+  <div class="bluray_cell">
+    <p><bluray class="highlighted">Title:</bluray> <%= @bluray.name %> </p>
+
+
+    <p><bluray class="highlighted">Description:</bluray> <%= @bluray.description %></p>
+
+    <p><bluray class="highlighted">Stock Quantity:</bluray> <%= @bluray.stock_quantity %></p>
+
+    <p><bluray class="highlighted">Cost Price: £</bluray><%= @bluray.cost_price %></p>
+
+    <p><bluray class="highlighted">Selling Price: £</bluray><%= @bluray.selling_price %></p>
+
+    <p><bluray class="highlighted">Genre:</bluray> <%= @bluray.genre %></p>
+
+    <p><bluray class="highlighted">IMDB Rating:</bluray> <%= @bluray.imdb_rating %></p>
+
+    <p><bluray class="highlighted"> Profit: £</bluray><%= @bluray.profit %> <p>
+
+      <p><bluray class="highlighted"> Supplier:</bluray> <%= @bluray.supplier.name %> </p>
+
+      <div class="align_button_and_link">
+        <div id ="wrapper">
+          <a class="button" href="/blurays/<%= @bluray.id %>/edit">Edit Blu-ray</a>
+
+          <form action="/blurays/<%= @bluray.id %>/delete" method="post">
+            <input class="btn_submit "type="submit" value="Delete">
+          </form>
+        </div>
+      </div>
+    </div>

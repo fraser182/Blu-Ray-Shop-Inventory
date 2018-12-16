@@ -1,0 +1,18 @@
+.header_container {
+  padding-top: 10px;
+  display: flex;
+   flex-direction: row;
+  flex-wrap: wrap-reverse;
+  word-break: normal;
+  justify-content: center;
+  /* border: 2px dotted black; */
+}
+
+.nav_cell {
+  /* border: 2px solid green; */
+}
+
+.logo_cell {
+  /* border: 2px solid blue; */
+
+}

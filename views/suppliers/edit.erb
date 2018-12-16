@@ -1,0 +1,18 @@
+<h1>Edit: <%= @supplier.name %></h1>
+
+<form class="form" action="/suppliers/<%=@supplier.id %>" method="post">
+
+  <label for="name" >Name</label>
+  <input type="text" name="name" value="<%=@supplier.name%>">
+
+  <label for="email">Email</label>
+  <input type="text" name="email" value="<%=@supplier.email%>">
+
+  <label for="telephone">Telephone</label>
+  <input type="text" name="telephone" value="<%=@supplier.telephone%>">
+
+  <label for="website">Website</label>
+  <input type="text" name="website" value="<%=@supplier.website%>">
+
+  <input class="btn_submit" type="submit" value="Save">
+</form>

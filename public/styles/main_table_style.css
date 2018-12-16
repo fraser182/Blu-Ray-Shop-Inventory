@@ -1,0 +1,44 @@
+.small {
+  text-align: center;
+  width: 75px;
+}
+
+.center {
+  text-align: center;
+}
+
+/* Heading */
+.main_stock_class th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgb(229, 189, 55);
+  color: black;
+  font-weight: normal;
+  font-weight: bold;
+  order: 1px solid rgb(229, 189, 55);
+  border-radius: 6px;
+  padding: 5px;
+}
+
+/* Main spacing */
+.main_stock_class td {
+  border: 1px solid rgba(181, 181, 181, 0.52);
+  border-radius: 6px;
+  padding: 5px;
+}
+
+/* doesnt work fully over the tr:nth-child(even)*/
+/* .main_stock_class tr:hover {
+  background-color: rgba(98, 98, 98, 0.54);
+} */
+
+
+.main_stock_table {
+  display: flex;
+  justify-content: center;
+  padding:20px;
+}
+
+.main_stock_class tr:nth-child(even) {
+  background-color: rgba(214, 214, 214, 0.27) ;
+}

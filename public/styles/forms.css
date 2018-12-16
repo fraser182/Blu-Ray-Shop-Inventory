@@ -1,0 +1,45 @@
+
+.form {
+  border: 2px solid rgb(229, 189, 55);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+  padding: 2%;
+  margin: 1% 25%;
+  font-size: 14px;
+}
+
+
+textarea {
+  border: 1px solid rgba(134, 134, 134, 0.63);
+  border-radius: 4px;
+  flex: auto;
+  margin-bottom: 10px;
+  width: 74%;
+
+}
+
+label {
+  margin: 10px;
+  font-weight: bold;
+  flex: auto; /*label positions left when shrunk*/
+  width: 20%;
+}
+
+
+input {
+  border: 1px solid rgba(134, 134, 134, 0.63);
+  border-radius: 4px;
+}
+
+
+input[type="text"], input[type="number"], input[type='email'], input[type='url'] {
+  height: 14px;
+  width: 75%;
+}
+
+select {
+  width: 72%;
+}

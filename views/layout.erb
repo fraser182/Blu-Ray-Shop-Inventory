@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/styles/style.css">
+  <link rel="stylesheet" href="/styles/buttons.css">
+  <link rel="stylesheet" href="/styles/suppliers.css">
+  <link rel="stylesheet" href="/styles/forms.css">
+  <link rel="stylesheet" href="/styles/blurays.css">
+  <link rel="stylesheet" href="/styles/header.css">
+  <link rel="stylesheet" href="/styles/main_table_style.css">
+
+  <title>BuyMDB</title>
+</head>
+<body>
+  <div class="header_container">
+    <div class="nav_cell">
+      <nav class="navbar">
+
+        <ul class="menu_list">
+          <li><a href="/">Stock</a></li>
+          <li><a href="/suppliers">Suppliers</a></li>
+          <li><a href="/blurays/new">Add Blu-ray</a></li>
+          <li><a href="/suppliers/new">Add Supplier</a></li>
+
+        </ul>
+      </nav>
+    </div>
+    <div class="logo_cell">
+    <a href="/"><img src="/images/buyMDB-logo_small.png" width="350px" height='auto' class="main_logo"> </a>
+    </div>
+
+
+  </div>
+  <hr>
+  <main>
+    <section>
+      <article>
+        <%= yield %>
+      </article>
+    </section>
+  </main>
+
+
+</body>
+
+</html>

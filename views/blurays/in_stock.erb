@@ -1,0 +1,60 @@
+
+<div class="stock_buttons">
+  <form action="/" method="GET">
+    <input type="submit" value="All stock" class="btn_stock">
+  </form>
+
+  <form action="/blurays/out_of_stock" method="GET">
+    <input type="submit" value="Out of Stock" class="btn_stock">
+  </form>
+
+  <form action="/blurays/in_stock" method="GET">
+    <input type="submit" value="In Stock" class="btn_stock">
+  </form>
+
+  <form action="/blurays/low_stock" method="GET">
+    <input type="submit" value="Low Stock"class="btn_stock">
+  </form>
+</div>
+<br>
+
+<h1>All Stock (Click on the movie title to get more details)</h1>
+
+<div class="main_stock_class">
+  <table class="main_stock_table">
+    <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Cost Price (£)</th>
+      <th> Selling Price (£) </th>
+      <th> Profit (£) </th>
+      <th> Genre </th>
+      <th> IMDB Rating </th>
+      <th> Stock Quantity </th>
+      <th>  Stock Level </th>
+
+    </tr>
+
+    <% for bluray in @blurays %>
+
+    <tr>
+      <td class="small"><%= bluray.id  %></td>
+
+      <td class="center"><a href="/blurays/<%=bluray.id%>"><%= bluray.name  %></a></td>
+
+      <td class="small"><%= bluray.cost_price  %></td>
+
+      <td class="small"><%= bluray.selling_price  %></td>
+
+      <td class="small"><%= bluray.profit %></td>
+
+      <td class="center"><%= bluray.genre %></td>
+
+      <td class="center"><%= bluray.imdb_rating %> </td>
+
+      <td class="center"><%= bluray.stock_quantity %></td>
+
+      <td class="center" bgcolor="<%= bluray.stock_quantity_warning_colour() %>"><%= bluray.stock_quantity_warning_words %></td>
+
+    </tr>
+    <% end %>

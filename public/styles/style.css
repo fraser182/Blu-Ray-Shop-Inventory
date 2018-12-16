@@ -1,0 +1,70 @@
+body {
+  text-decoration:none;
+
+  color: black;
+  background-color: white;
+
+  font-family: Roboto;
+
+}
+
+ul {
+  margin: 0;
+  padding-left: 10px;
+  list-style-type: none;
+}
+
+li a {
+  display: block;
+
+  padding: 8px 10px;
+
+  text-decoration: none;
+
+  color: black;
+}
+
+li a:hover {
+  color: black;
+  border-radius: 10px;
+  background-color: rgb(229, 189, 55);
+}
+
+table.center {
+  margin: auto;
+
+  border-spacing: 10px 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+.table_headings {
+  text-decoration:none;
+
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Cant get it working */
+/* a.no_bg_values:hover {
+  background: none !important;
+
+} */
+a
+{
+  text-decoration:none;
+  color:black;
+}
+
+a:hover
+{
+  background-color: rgb(229, 189, 55);
+}
+
+.center_h2 {
+  text-align: center;
+  font-size: 20px;
+}

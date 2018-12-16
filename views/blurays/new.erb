@@ -1,0 +1,36 @@
+<h1> Add Blu-ray Details</h1>
+
+
+<form class="form" action="/blurays" method="POST">
+
+
+    <label for="name">Title</label>
+    <input type="text" name="name" required="required" placeholder ="example: Avatar">
+
+    <label for="description">Description</label>
+    <textarea name="description" rows="10" cols="30" placeholder = "example: A paraplegic marine dispatched to the moon Pandora on a unique.."></textarea>
+
+    <label for="stock_quantity">Stock Quantity</label>
+    <input type="number" name="stock_quantity" required="required" placeholder ="example: 20">
+
+    <label for="cost_price">Cost Price £</label>
+    <input type="number" name="cost_price" required="required" min=0.00 step=0.01 placeholder ="example: 4.35">
+
+    <label for="selling_price">Selling Price £</label>
+    <input type="number" name="selling_price" required="required" min=0.00 step=0.01 placeholder ="example: 8.99">
+
+    <label for="Genre">Genre</label>
+    <input type="text" name="genre" required="required" placeholder ="example: Fantasy">
+
+    <label for="imdb_rating"> IMDB Rating</label>
+    <input type="number" step="0.1" name="imdb_rating" min=0.0 step=0.1 required="required" placeholder ="example: 9.2">
+
+    <label for="supplier"> Supplier</label>
+    <select name="supplier_id">
+      <% for supplier in @suppliers %>
+      <option value="<%=supplier.id%>"><%=supplier.name%></option>
+      <%end %>
+    </select>
+
+    <input class="btn_submit "type="submit" value="Save">
+  </form>

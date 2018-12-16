@@ -1,0 +1,25 @@
+.suppliers_container {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  word-break: normal;
+  justify-content: center;
+  /* border: 2px solid rgb(229, 189, 55); */
+}
+
+.supplier_cell {
+  padding: 20px;
+  margin: 5px;
+  text-align: center;
+  display: inline-block;
+  width: 200px;
+  word-break: normal;
+  border: 2px solid rgb(229, 189, 55);
+  border-radius: 20px;
+  word-wrap: break-word;
+  max-width: 300px;
+  min-width: 300px;
+  flex-grow: 1;
+
+}

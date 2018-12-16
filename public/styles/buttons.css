@@ -1,0 +1,68 @@
+/* Make a link look like a button (example on supplier edit and delete)*/
+.button {
+  font-size: 12px;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 1px 6px 1px 6px;
+  border: 1px solid #CCCCCC;
+  background-color: white;
+
+}
+
+.align_button_and_link {
+/* border-color: black; */
+/* background-color: green; */
+
+}
+
+/* I created a wrapper to align the button and the link in the div class*/
+#wrapper {
+  width: 100%;
+  height: auto;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.stock_buttons{
+
+display: flex;
+justify-content: center;
+
+}
+
+/* removes random blue box on click, for chrome (I think)*/
+.btn_stock:focus {
+  outline:0;
+}
+
+.btn_stock{
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  border: 2px solid rgb(229, 189, 55);
+  border-radius: 10px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.btn_stock:active {
+  background-color: rgb(229, 189, 55);
+}
+
+.btn_stock:hover {
+  color: black;
+  background-color: rgb(229, 189, 55);
+}
+
+.btn_submit {
+  margin: 5px;
+}
+
+.btn_submit:hover {
+  background-color: rgb(229, 189, 55);
+  border: 1px solid rgb(229, 189, 55);
+}
