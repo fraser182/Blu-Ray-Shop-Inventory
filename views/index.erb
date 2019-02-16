@@ -31,7 +31,6 @@
       <th> Genre </th>
       <th> IMDB Rating </th>
       <th> Stock Quantity </th>
-      <th>  Stock Level </th>
 
     </tr>
 
@@ -52,9 +51,7 @@
 
       <td class="center"><%= bluray.imdb_rating %> </td>
 
-      <td class="center"><%= bluray.stock_quantity %></td>
-
-      <td class="center" bgcolor="<%= bluray.stock_quantity_warning_colour() %>"><%= bluray.stock_quantity_warning_words %></td>
+      <td class="center_<%= bluray.stock_quantity_warning_words %>"><%= bluray.stock_quantity %></td>
 
     </tr>
     <% end %>

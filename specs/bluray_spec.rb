@@ -92,20 +92,20 @@ class BluRayTest < MiniTest::Test
 
 
   def test_stock_quantity_warning_high_stock()
-    assert_equal("High Stock", @bluray1.stock_quantity_warning)
+    assert_equal("High", @bluray1.stock_quantity_warning_words)
   end
 
   def test_stock_quantity_warning_medium_stock()
-    assert_equal("Medium Stock", @bluray2.stock_quantity_warning)
+    assert_equal("Medium", @bluray2.stock_quantity_warning_words)
   end
 
 
   def test_stock_quantity_warning_low_stock()
-    assert_equal("Low Stock", @bluray3.stock_quantity_warning)
+    assert_equal("Low", @bluray3.stock_quantity_warning_words)
   end
 
   def test_stock_quantity_warning_no_stock()
-    assert_equal("Out of Stock", @bluray4.stock_quantity_warning)
+    assert_equal("None", @bluray4.stock_quantity_warning_words)
   end
 
   def test_profit()

@@ -71,33 +71,11 @@ class BluRay
   end
 
 
-  # Other functions
-
-  def stock_quantity_warning_colour()
-    # if stock_quantity is less than or equal to 50
-    if @stock_quantity >= 50
-      # return High Stock
-      result = "DarkSeaGreen" # names from CSS name file online
-      # else if stock_quantity is greater than or equal to 25 and less than 50
-    elsif @stock_quantity >= 25 && @stock_quantity < 50
-      # return Medium Stock
-      result = "LightGoldenRodYellow"
-      # else if stock_quantity is greater than 0 and less than 25
-    elsif @stock_quantity > 0 && @stock_quantity < 25
-      # return Low Stock
-      result = "LightSalmon"
-      # else return No Stock
-    else result = "FireBrick"
-    end
-    return result
-  end
-
-
   def stock_quantity_warning_words()
     # if stock_quantity is less than or equal to 50
     if @stock_quantity >= 50
       # return High Stock
-      return "High"
+      result = "High"
       # else if stock_quantity is greater than or equal to 25 and less than 50
     elsif @stock_quantity >= 25 && @stock_quantity < 50
       # return Medium Stock
@@ -107,7 +85,7 @@ class BluRay
       # return Low Stock
       result = "Low"
       # else return No Stock
-    else result = "Out Of Stock"
+    else result = "None"
     end
     return result
   end

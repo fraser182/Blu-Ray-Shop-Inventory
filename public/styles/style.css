@@ -53,15 +53,9 @@ h1 {
   background: none !important;
 
 } */
-a
-{
+a {
   text-decoration:none;
   color:black;
-}
-
-a:hover
-{
-  background-color: rgb(229, 189, 55);
 }
 
 .center_h2 {
