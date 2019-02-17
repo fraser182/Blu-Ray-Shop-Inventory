@@ -31,6 +31,7 @@ The owner of a Blu-Ray Store wants an app to track their shop's inventory. This 
 
 ## Screenshots
 
+Main Inventory Page
 <img src="./planning/img/main.png" height="500">
 
 ## Technologies
@@ -66,4 +67,4 @@ To-do list:
 * Add a sort by genre facility (back end complete for this)
 
 ## Parting Words
-I am open to improvements, so please let me know what you think [mailto](mailto: fraser182@icloud.com) - feel free to contact me!
+I am open to improvements, so please let me know what you think - feel free to contact me!
