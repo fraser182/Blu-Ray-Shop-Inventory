@@ -31,7 +31,7 @@ The owner of a Blu-Ray Store wants an app to track their shop's inventory. This 
 
 ## Screenshots
 
-<img src="./planning/img/main.png" height="24">
+<img src="./planning/img/main.png" height="100">
 
 ## Technologies
 * Language - Ruby
