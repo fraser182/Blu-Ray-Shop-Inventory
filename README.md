@@ -1,6 +1,6 @@
 # Solo Project: Blu-Ray Store
 
-A Full-Stack RESTful App for a Blu-Ray Store Owner wanting to keep track of stock.
+A Full-Stack RESTful App for a Blu-Ray Store Owner wanting to keep track of inventory.
 
 ## Brief
 The owner of a Blu-Ray Store wants an app to track their shop's inventory. This is not an app which the customer will see, it is an admin/management app for the shop workers.
