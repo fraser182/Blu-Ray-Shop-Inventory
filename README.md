@@ -13,25 +13,25 @@ The owner of a Blu-Ray Store wants an app to track their shop's inventory. This 
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Run](#run)
-* [What I Have Learned](#what-i-have-learned)
+* [What I Have Learned And Enjoyed](#what-i-have-learned-and-enjoyed)
 * [Status](#status)
 * [Parting Words](#parting-words)
 
 ## MVP
-* Create blu-rays including a name, description, stock, quantity, buying cost and selling price
-* Create a suppliers list linked to the blu-rays, including name and other appropriate details
-* Show an inventory page listing blu-rays
-* Include CRUD functionality
-* Show an inventory page, listing all the details for all the blu-rays in stock in a single view
-* Show a visual highlight  of `low stock` and `out of stock`
+* Created blu-rays including a name, description, stock, quantity, buying cost and selling price
+* Created a suppliers list linked to the blu-rays, including name and other appropriate details
+* Showed an inventory page listing blu-rays
+* Includde CRUD functionality
+* Showed an inventory page, listing all the details for all the blu-rays in stock in a single view
+* Showed a visual highlight  of `low stock` and `out of stock`
 
 ## Extensions
-* Add an `In Stock` and `All Stock` filter buttons
-* Add the markup (profit) on each Blu-ray
-*
+* Added an `In Stock` and `All Stock` filter buttons
+* Added CSS styling link to High Stock, Low Stock (etc) function, for auto-colouring
+* Added the markup (profit) on each Blu-ray
 
 ## My Extras
-* Add pre-population of Suppler and Blu-Ray edit function
+* Added pre-population of Suppler and Blu-Ray edit function
 
 ## Status
 Project is: _in progress_
@@ -39,6 +39,7 @@ Project is: _in progress_
 To-do list:
 * Add a search facility
 * Add a sort by genre facility (back end complete for this)
+* Add filters on each table heding to order ASC and DES.
 
 ## Screenshots
 
@@ -68,11 +69,10 @@ $ ruby app.rb
 [Local Host :4567](http://localhost:4567/)
 
 
-## What I Have Learned
+## What I Have Learned and Enjoyed
 From this CodeClan Solo Project
 * Implementing my first full-stack, RESTful, web app
-* 
-* Awesome feature 3
+* Combing Ruby with CSS to apply an if statement to styling outcomes (VERY FUN!)
 
 
 ## Parting Words
