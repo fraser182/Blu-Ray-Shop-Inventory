@@ -69,7 +69,7 @@ $ ruby app.rb
 [Local Host :4567](http://localhost:4567/)
 
 
-## What I Have Learned and Enjoyed
+## What I Have Learned and/or Enjoyed
 From this CodeClan Solo Project
 * Implementing my first full-stack, RESTful, web app
 * Combing Ruby with CSS to apply an if statement to styling outcomes (VERY FUN!)
