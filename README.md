@@ -14,7 +14,7 @@ The owner of a Blu-Ray Store wants an app to track their shop's inventory. This 
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Run](#run)
-* [What I Have Learned And Enjoyed](#what-i-have-learned-and-enjoyed)
+* [What I Have Learned And/Or Enjoyed](#what-i-have-learned-and-or-enjoyed)
 * [Parting Words](#parting-words)
 
 ## MVP
