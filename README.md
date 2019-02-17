@@ -1,6 +1,6 @@
 # Solo Project: Blu-Ray Store
 
-A Blu-Ray Store For An Owner, written in Ruby, with basic CRUD functionality, based around a stock list.
+A Full-Stack RESTful App for a Blu-Ray Store For An Owner, written in Ruby, wanting to keep track of stock.
 
 ## Brief
 The owner of a Blu-Ray Store wants an app to track their shop's inventory. This is not an app which the customer will see, it is an admin/management app for the shop workers.
