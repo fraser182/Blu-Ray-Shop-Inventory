@@ -14,7 +14,7 @@ The owner of a Blu-Ray Store wants an app to track their shop's inventory. This 
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Run](#run)
-* [What I Have Learned And/Or Enjoyed](#what-i-have-learned-and/or-enjoyed)
+* [What I Have Learned And Enjoyed](#what-i-have-learned-and-enjoyed)
 * [Parting Words](#parting-words)
 
 ## MVP
@@ -40,6 +40,7 @@ To-do list:
 * Add a search facility
 * Add a sort by genre facility (back end complete for this)
 * Add filters on each table heding to order ASC and DES.
+* Improve overall look of the front-end; redesign menu and buttons
 
 ## Screenshots
 
@@ -69,9 +70,10 @@ $ ruby app.rb
 [Local Host :4567](http://localhost:4567/)
 
 
-## What I Have Learned and/or Enjoyed
+## What I Have Learned and Enjoyed
 From this CodeClan Solo Project
 * Implementing my first full-stack, RESTful, web app
+* Using TDD to make sure my functions are doing what they do
 * Combing Ruby with CSS to apply an if statement to styling outcomes (VERY FUN!)
 
 
