@@ -8,6 +8,7 @@ The owner of a Blu-Ray Store wants an app to track their shop's inventory. This 
 ## Table of contents
 * [MVP](#mvp)
 * [Extensions](#extensions)
+* [My Extras](#my-extras)
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
 * [Setup](#setup)
@@ -25,9 +26,19 @@ The owner of a Blu-Ray Store wants an app to track their shop's inventory. This 
 * Show a visual highlight  of `low stock` and `out of stock`
 
 ## Extensions
-* Added an `In Stock` and `All Stock` filter buttons
-* Added the markup (profit) on each Blu-ray
-* Added pre-population of Suppler and Blu-Ray edit function
+* Add an `In Stock` and `All Stock` filter buttons
+* Add the markup (profit) on each Blu-ray
+*
+
+## My Extras
+* Add pre-population of Suppler and Blu-Ray edit function
+
+## Status
+Project is: _in progress_
+
+To-do list:
+* Add a search facility
+* Add a sort by genre facility (back end complete for this)
 
 ## Screenshots
 
@@ -44,7 +55,6 @@ Add A Bu-Ray
 * Language - Ruby
 * Styling - HTML and CSS
 * Database - PSQL
-*
 
 ## Setup
 ```
@@ -60,17 +70,10 @@ $ ruby app.rb
 
 ## What I Have Learned
 From this CodeClan Solo Project
-* Awesome feature 1
-* Awesome feature 2
+* Implementing my first full-stack, RESTful, web app
+* 
 * Awesome feature 3
 
-
-## Status
-Project is: _in progress_
-
-To-do list:
-* Add a search facility
-* Add a sort by genre facility (back end complete for this)
 
 ## Parting Words
 I am open to improvements, so please let me know what you think - feel free to contact me!
