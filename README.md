@@ -9,12 +9,12 @@ The owner of a Blu-Ray Store wants an app to track their shop's inventory. This 
 * [MVP](#mvp)
 * [Extensions](#extensions)
 * [My Extras](#my-extras)
+* [Status](#status)
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Run](#run)
 * [What I Have Learned And Enjoyed](#what-i-have-learned-and-enjoyed)
-* [Status](#status)
 * [Parting Words](#parting-words)
 
 ## MVP
