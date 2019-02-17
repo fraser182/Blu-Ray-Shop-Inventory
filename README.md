@@ -21,7 +21,7 @@ The owner of a Blu-Ray Store wants an app to track their shop's inventory. This 
 * Created blu-rays including a name, description, stock, quantity, buying cost and selling price
 * Created a suppliers list linked to the blu-rays, including name and other appropriate details
 * Showed an inventory page listing blu-rays
-* Includde CRUD functionality
+* Include CRUD functionality
 * Showed an inventory page, listing all the details for all the blu-rays in stock in a single view
 * Showed a visual highlight  of `low stock` and `out of stock`
 
@@ -48,7 +48,7 @@ Main Inventory Page <br>
 <img src="./planning/img/main.png" height="500">
 <br>
 <br>
-Add A Bu-Ray 
+Add A Bu-Ray
 <br>
 <img src="./planning/img/add_blu_ray.png" height="400">
 
