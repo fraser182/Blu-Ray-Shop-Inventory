@@ -31,7 +31,7 @@ The owner of a Blu-Ray Store wants an app to track their shop's inventory. This 
 
 ## Screenshots
 
-Main Inventory Page
+Main Inventory Page <br>
 <img src="./planning/img/main.png" height="500">
 
 ## Technologies
