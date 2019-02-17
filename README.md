@@ -33,6 +33,10 @@ The owner of a Blu-Ray Store wants an app to track their shop's inventory. This 
 
 Main Inventory Page <br>
 <img src="./planning/img/main.png" height="500">
+<br>
+Add A Bu-Ray 
+<img src="./planning/img/add_blu_ray.png" height="500">
+
 
 ## Technologies
 * Language - Ruby
