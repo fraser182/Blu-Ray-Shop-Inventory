@@ -1,6 +1,6 @@
 require_relative('../models/bluray.rb')
 require_relative('../models/supplier.rb')
-require("pry-byebug")
+
 
 Supplier.delete_all()
 BluRay.delete_all()
@@ -264,7 +264,3 @@ bluray12.save
 bluray13.save
 bluray14.save
 bluray15.save
-
-
-binding.pry
-nil
