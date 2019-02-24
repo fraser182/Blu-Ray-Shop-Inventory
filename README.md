@@ -1,5 +1,9 @@
 # Solo Project: Blu-Ray Store
 
+## Deployed
+
+https://blu-ray-shop-inventory.herokuapp.com/
+
 A Full-Stack RESTful App for a Blu-Ray Store Owner wanting to keep track of inventory.
 
 ## Brief

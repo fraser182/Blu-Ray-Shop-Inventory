@@ -13,25 +13,40 @@ get '/blurays/new' do
   erb(:"/blurays/new")
 end
 
-# out of stock needs to be above /blurays/:id
-get '/blurays/out_of_stock' do
-  @blurays = BluRay.list_out_of_stock()
-  erb(:"/blurays/out_of_stock")
+get '/blurays/filter/:stock_level' do
+if params[:stock_level] == "out_of_stock"
+  @blurays = BluRay.list_out_of_stock
+    erb(:"/blurays/index")
+  elsif params[:stock_level] == "low_stock"
+      @blurays = BluRay.list_low_stock
+      erb(:"/blurays/index")
+  elsif params[:stock_level] == "in_stock"
+      @blurays = BluRay.list_in_stock
+      erb(:"/blurays/index")
+    end
 end
+
+
+
+# out of stock needs to be above /blurays/:id
+# get '/blurays/out_of_stock' do
+#   @blurays = BluRay.list_out_of_stock()
+#   erb(:"/blurays/out_of_stock")
+# end
 
 
 # in stock needs to be above /blurays/:id
-get '/blurays/in_stock' do
-  @blurays = BluRay.list_in_stock()
-  erb(:"/blurays/in_stock")
-end
+# get '/blurays/in_stock' do
+#   @blurays = BluRay.list_in_stock()
+#   erb(:"/blurays/in_stock")
+# end
 
 
 # low stock needs to be above /blurays/:id
-get '/blurays/low_stock' do
-  @blurays = BluRay.list_low_stock()
-  erb(:"/blurays/low_stock")
-end
+# get '/blurays/low_stock' do
+#   @blurays = BluRay.list_low_stock()
+#   erb(:"/blurays/low_stock")
+# end
 
 # SHOW
 get '/blurays/:id' do
