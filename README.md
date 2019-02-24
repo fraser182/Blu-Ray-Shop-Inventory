@@ -9,15 +9,16 @@ A Full-Stack RESTful App for a Blu-Ray Store Owner wanting to keep track of inve
 ## Brief
 The owner of a Blu-Ray Store wants an app to track their shop's inventory. This is not an app which the customer will see, it is an admin/management app for the shop workers.
 
+## Time Restraint
+
+6 days
+
 ## Table of contents
 * [MVP](#mvp)
 * [Extensions](#extensions)
 * [My Extras](#my-extras)
 * [Status](#status)
-* [Screenshots](#screenshots)
 * [Technologies](#technologies)
-* [Setup](#setup)
-* [Run](#run)
 * [What I Have Learned And Enjoyed](#what-i-have-learned-and-enjoyed)
 * [Parting Words](#parting-words)
 
@@ -43,36 +44,13 @@ Project is: _in progress_
 To-do list:
 * Add a search facility
 * Add a sort by genre facility (back end complete for this)
-* Add filters on each table heding to order ASC and DES.
+* Add filters on each table heading to order ASC and DES.
 * Improve overall look of the front-end; redesign menu and buttons
-
-## Screenshots
-
-Main Inventory Page <br>
-<img src="./planning/img/main.png" height="500">
-<br>
-<br>
-Add A Bu-Ray
-<br>
-<img src="./planning/img/add_blu_ray.png" height="400">
-
 
 ## Technologies
 * Language - Ruby
 * Styling - HTML and CSS
 * Database - PSQL
-
-## Setup
-```
-$ createdb buymdb
-$ psql -d buymdb -f db/buymdb.sql (in master file)
-$ ruby db/seeds.rb
-$ ruby app.rb
-
-```
-## Run
-[Local Host :4567](http://localhost:4567/)
-
 
 ## What I Have Learned and Enjoyed
 From this CodeClan Solo Project
