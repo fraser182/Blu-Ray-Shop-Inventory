@@ -20,6 +20,7 @@ if params[:stock_level] == "out_of_stock"
     end
 end
 
+
 # SHOW
 get '/blurays/:id' do
   @bluray = BluRay.find(params['id'])
