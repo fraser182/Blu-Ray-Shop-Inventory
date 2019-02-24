@@ -16,7 +16,7 @@ end
 get '/blurays/filter/:stock_level' do
 if params[:stock_level] == "out_of_stock"
   @blurays = BluRay.list_out_of_stock
-    erb(:"/blurays/out_of_stock")
+    erb(:index)
   elsif params[:stock_level] == "low_stock"
       @blurays = BluRay.list_low_stock
       erb(:"/blurays/index")
